@@ -1,0 +1,13 @@
+#
+# This file is part of Crucible.
+# (c) 2014 Tejaswi Sharma
+#
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+#
+
+# Redirect everything through the
+# frontend controller
+
+RewriteEngine on
+RewriteRule ^(.*)$ crucible.php [QSA,L]
